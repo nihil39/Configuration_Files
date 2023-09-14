@@ -11,3 +11,9 @@ https://forums.developer.nvidia.com/t/trouble-suspending-with-510-39-01-linux-5-
 https://bbs.archlinux.org/viewtopic.php?id=277713
 
 but first enable kernel mode set and ``options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/var/tmp``
+
+
+## Lenovo Ideapad battery conservation mode
+To save battery and stop chargin percentage at 80% when on AC power
+``cat /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode`` if 0 is siabled, if 1 is enabled
+``echo 0 or 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode`` to set the value 0 or 1
