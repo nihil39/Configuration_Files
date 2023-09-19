@@ -16,8 +16,9 @@ but first enable kernel mode set and ``options nvidia NVreg_PreserveVideoMemoryA
 ## Lenovo Ideapad battery conservation mode
 To save battery and stop chargin percentage at 80% when on AC power
 
-
 ``cat /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode`` if 0 is disabled, if 1 is enabled
 
 
 ``echo 0 or 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode`` to set the value 0 or 1
+
+This setting should remain even when the pc is switched off.
