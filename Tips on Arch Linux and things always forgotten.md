@@ -34,7 +34,7 @@ I was able to adjust some of the settings in the BIOS under "Smart Fan Control" 
 
 You can also change the 54W TDP to 45W if you're okay with losing ~3-5% performance in multi-core workloads. You can do this through Advanced -> AMD CBS -> NBIO Configuration -> SMU Configuration -> System Configuration (or something like like that). There's two options: Balanced (which is 45W), and Performance (which is 54W). I benchmarked it before & after and didn't notice much difference in performance.
 
-## Strange behaviour of GNOME 45 with desktop bar
+## Strange behaviour of GNOME 45 with former Activities/Desktop bar
 
 https://www.reddit.com/r/gnome/comments/178n27h/gnome_45_no_activities_button/
 
