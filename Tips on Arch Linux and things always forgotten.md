@@ -33,3 +33,11 @@ https://www.reddit.com/r/MiniPCs/comments/17h5qab/noise_complaint_beelink_ser5_m
 I was able to adjust some of the settings in the BIOS under "Smart Fan Control" and it helped a lot. It seems that the fan curve is really aggressive. Change the max temperature to 95, and set the "Start PWM" value to something like 30 or 40 (the scale is 0-128, min is 30 according to Beelink). Use the same settings for both fans.
 
 You can also change the 54W TDP to 45W if you're okay with losing ~3-5% performance in multi-core workloads. You can do this through Advanced -> AMD CBS -> NBIO Configuration -> SMU Configuration -> System Configuration (or something like like that). There's two options: Balanced (which is 45W), and Performance (which is 54W). I benchmarked it before & after and didn't notice much difference in performance.
+
+## Strange behaviour of GNOME 45 with desktop bar
+
+https://www.reddit.com/r/gnome/comments/178n27h/gnome_45_no_activities_button/
+
+Install gnome-icon-theme-extras
+
+
