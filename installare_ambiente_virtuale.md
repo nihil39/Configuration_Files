@@ -1,5 +1,5 @@
 ## Come installare un ambiente virtuale python su Linux
-1. `python -m venv envname` per creare l'ambiente virtuale di nome `envname`. L'ambiente virtuale ha tutti i pacchetti seprati da quelli di sistema. 
+1. `python -m venv envname` per creare l'ambiente virtuale di nome `envname`. L'ambiente virtuale ha tutti i pacchetti separati da quelli di sistema. 
 2. `source envname/bin/activate` per attivare l'ambiente. Controllare a destra o a sinistra nel prompt per vedere se è attivo, dovrebbe apparire `(envname)`, in alcune shell appare `via envname`
 3. `pip install --upgrade pip` per aggiornare pip, di solito serve, ma comunque non fa male.
 4. `pip install ipykernel matplotlib ipympl nbformat` Pacchetti utili per i notebook che saranno comunque installati
