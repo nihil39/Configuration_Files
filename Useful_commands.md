@@ -12,4 +12,8 @@ From the source host (home pc) run
 
 `ssh-copy-id myname@somehost`
 
+As an alternative we can use to pass to ssh the password without writing it
+
+`sshpass -f file_with_password ssh -o StrictHostKeyChecking=no username@server_address` 
+
 
