@@ -15,6 +15,10 @@ filetype indent on
 set wildmenu 
 set showmatch " highlight matching [{()}]
 
+
+set spelllang=en,it
+" Next line to spell check only the files that have the txt extension
+autocmd BufRead,BufNewFile *.txt setlocal spell
 set splitbelow
 set splitright
 
@@ -101,8 +105,10 @@ set noshowmode " non mostra il modo, va bene perche' il plugin airline lo fa gia
     " incorrect background rendering when using a color theme with a
     " background color.
     let &t_ut=''
-"colorscheme PaperColor
 colorscheme solarized8
+
+" Deus is a good dark colorscheme
+" colorscheme deus
 
 " It creates all the custom operator-pending mappings required for di,, vi%, ci:, ya| and so on. // di, = delete inner delimited by the ,
 " to select, delect, copy etc inside the below delimiters
@@ -114,4 +120,4 @@ for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%' ]
 endfor
 
 " To execute a python3 script pressing f10 in normal mode. remember to save it before executing
-nnoremap <F10> <Esc>:w<CR> :echo system('python3 "' . expand('%') . '"')<cr>
+" nnoremap <F10> <Esc>:w<CR> :echo system('python3 "' . expand('%') . '"')<cr>
