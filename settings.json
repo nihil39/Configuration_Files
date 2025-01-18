@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.lineNumbers": "on",
+    "breadcrumbs.enabled": false,
+    "window.titleBarStyle": "custom",
+    "editor.fontLigatures": true
+}
