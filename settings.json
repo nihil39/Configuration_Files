@@ -10,5 +10,6 @@
     "notebook.lineNumbers": "on",
     "breadcrumbs.enabled": false,
     "window.titleBarStyle": "custom",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "python.languageServer": "Pylance"
 }
