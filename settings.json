@@ -1,4 +1,4 @@
-## This file path is ~/.config/Code\ -\ OSS/User/settings.json
+## This file path is ~/.config/Code\ -\ OSS/User/settings.json BUT REMOVE THIS LINE!!! JSON DOES NOT SUPPORT COMMENTS
 
 {
     "workbench.colorTheme": "Default Dark+",
