@@ -39,7 +39,7 @@ You can also change the 54W TDP to 45W if you're okay with losing ~3-5% performa
 https://www.reddit.com/r/gnome/comments/178n27h/gnome_45_no_activities_button/
 
 Install gnome-icon-theme-extras
-## Thinkpad battery threshold gnome avoid permission request
+## Thinkpad battery threshold (gnome extension) avoid permission request
 https://gitlab.com/marcosdalvarez/thinkpad-battery-threshold-extension
 
 
