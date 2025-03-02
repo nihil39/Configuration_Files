@@ -42,4 +42,12 @@ Install gnome-icon-theme-extras
 ## Thinkpad battery threshold (gnome extension) avoid permission request
 https://gitlab.com/marcosdalvarez/thinkpad-battery-threshold-extension
 
+## How to use gnome keyring with ssh agents 
+
+https://wiki.archlinux.org/title/GNOME/Keyring#SSH_keys
+
+``systemctl enable --user gcr-ssh-agent.socket``
+
+Install seahorse and gcr-4
+
 
