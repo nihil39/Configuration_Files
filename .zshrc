@@ -157,7 +157,7 @@ alias ll='eza -al --group-directories-first' # list all
 alias ls='eza -alf --color=always --sort=size | grep -v /'
 alias lt='eza -al --sort=modified'
 
-alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
+alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
 
 # specialty views
 alias lS='eza -1'                                                              # one column, just names
