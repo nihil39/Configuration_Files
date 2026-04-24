@@ -49,5 +49,24 @@ https://wiki.archlinux.org/title/GNOME/Keyring#SSH_keys
 ``systemctl enable --user gcr-ssh-agent.socket``
 
 Install seahorse and gcr-4
+## Write a PKGBUILD, basic steps
+``yay -G <package-name>``
+
+``cd <package-name>``
+
+``pkgver``: Change this to the new version number you want to build.
+
+``pkgrel``: Reset this to 1. This represents the "release" number of the current version. Since you are building a fresh version, it goes back to 1.
+
+
+Because you changed the version, makepkg will attempt to download a new source tarball. The old security checksums (like sha256sums) at the bottom of the PKGBUILD will no longer match the new file, causing the build to fail.
+
+So run
+``updpkgsums``
+to update the checksums
+
+At the end
+``makepkg -si``
+to sync and build the updated package
 
 
