@@ -50,7 +50,7 @@ https://wiki.archlinux.org/title/GNOME/Keyring#SSH_keys
 
 Install seahorse and gcr-4
 ## Write a PKGBUILD, basic steps
-``yay -G <package-name>``
+``yay -G <package-name>`` to download only the PKGBUILD and the relevant files
 
 ``cd <package-name>``
 
